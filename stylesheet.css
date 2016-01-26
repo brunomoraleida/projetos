@@ -1,0 +1,214 @@
+body {
+  background-color: #0d0d0d;
+  margin: 0px;
+  font-family: appleberry;
+  color: #e6e6e6;
+  text-align: center;
+}
+
+h1  {
+  margin:0px;
+  padding: 0px;
+  font-family: Chalkboard by Marta Van Eck;
+}
+
+h1 span {
+  font-size: 100px;
+}
+
+h2  {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  color: #ff8533;
+}
+
+h2 span {
+  font-size: 0.5em;
+  font-family: Verdana;
+  color: #e6e6e6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p span {
+  font-weight: bold;
+  color: #ff8533;
+}
+
+h4  {
+  display: inline-block;
+}
+
+button {
+  background-color: inherit;
+  color: #ff8533;
+  border: 1px solid #ff8533;
+}
+
+.empresa{
+  width: 200px;
+  height:870px;
+  background-image: url("AB0A3239-6.jpg");
+  background-size: cover;
+  background-position: right;
+  margin: 0;
+  float: left;
+  }
+
+.express {
+  width: 200px;
+  height:330px;
+  background-image: url("pocketwatch.jpg");
+  background-size: cover;
+  background-position: right;
+  margin: 0;
+  float: left;
+}
+
+.bakery {
+  width: 200px;
+  height:520px;
+  background-image: url("IMG_6670b.jpg");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  clear:left;
+}
+
+.startups {
+  width: 200px;
+  height:410px;
+  background-image: url("onions.jpg");
+  background-size: cover;
+  background-position: right;
+  float: left;
+  clear:left;
+}
+
+.process {
+  width: 200px;
+  height:370px;
+  background-image: url("engrenagem.jpg");
+  background-size: cover;
+  background-position: right;
+  float: left;
+  clear:left;
+}
+
+.trainning {
+  width: 200px;
+  height:370px;
+  background-image: url("giz.jpg");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  clear:left;
+}
+
+.kitchen {
+  height:200px;
+  background-image: url("kitchen-1319537.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:0px 0px;
+}
+
+.pizza {
+  height: 200px;
+  background-image: url("20130114016-3.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0px 0px;
+}
+
+.bread {
+  height: 200px;
+  background-image: url("bread-p-atilde-o-2-1561228.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0px 0px;
+}
+
+.bolo {
+  height: 200px;
+  background-image: url("bolo.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0px 0px;
+  }
+
+.article {
+  width: 800px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  border-top: 1px dashed #e5e5ff;
+  border-bottom: 1px dashed #ffcccc;
+  border-radius: 25px;
+}
+
+.footer {
+  margin: 10px 0px;
+  background-color: white;
+  color: black;
+  clear: both;
+}
+
+.footer p {
+  margin: 0;
+  display: inline-block;
+}
+.footer img {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+
+.navigation {
+  align-content: center;
+  display: block;
+  margin-left: 0px;
+}
+
+.navbar {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: #ddffcc;
+  border-bottom: 1px dashed #ffcccc;
+  border-top: 1px dashed #e5e5ff;
+  border-radius: 20px;
+}
+
+.navbar:hover {
+  background-color: #e6e6e6;
+  color: black;
+  font-weight: bold;
+}
+
+.serious {
+  margin: 20px;
+  font-family: Verdana;
+  text-align: justify;
+}
+
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius:100px;
+}
+
+.tabNutOnOff, .rotOnOff, .recipeOnOff, .prodDevOnOff, .freezeOnOff,
+.capacityOnOff, .mixOnOff, .clientOnOff, .marketOnOff, .layoutOnOff, .equipOnOff,
+.recMixOnOff, .bpmOnOff, .gpOnOff, .bpfOnOff {
+  display: none;
+}
+
+.plus {
+  display: inline-block;
+  border-radius: 100px;
+  margin-left: 5px;
+}
