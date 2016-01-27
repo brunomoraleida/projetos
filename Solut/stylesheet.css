@@ -1,0 +1,214 @@
+body {
+  <!--background-color: #0d0d0d;-->
+  background-color: #ffffff;
+  margin: 0px;
+  font-family: appleberry;
+  <!--color: #e6e6e6;-->
+  color: #1a1a1a;
+  text-align: center;
+}
+
+h1  {
+  margin:0px;
+  padding: 0px;
+  font-family: Chalkboard by Marta Van Eck;
+}
+
+h1 span {
+  font-size: 100px;
+}
+
+h2  {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  color: #ff8533;
+}
+
+h2 span {
+  font-size: 0.5em;
+  font-family: Verdana;
+  color: #1a1a1a;
+  <!--color: #e6e6e6;-->
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p span {
+  font-weight: bold;
+  color: #ff8533;
+}
+
+h4  {
+  display: inline-block;
+}
+
+button {
+  background-color: inherit;
+  color: #ff8533;
+  border: 1px solid #ff8533;
+}
+
+.bakery{
+  background-image: url("imagens/AB0A3239-6.jpg");
+  <!--width: 200px;
+  <!--height:870px;
+  <!--background-size: cover;
+  <!--background-position: right;
+  <!--margin: 0;
+  <!--float: left;
+  }
+
+.express {
+  background-image: url("imagens/pocketwatch.jpg");
+  <!--width: 200px;
+  <!--height:390px;
+  <!--background-size: cover;
+  <!--background-position: right;
+  <!--margin: 0;
+  <!--float: left;
+}
+
+.empresa {
+  background-image: url("imagens/company.jpg");
+  <!--background-position: center;
+  <!--width: 200px;
+  <!--height:1200px;
+  <!--background-size: cover;
+  <!--float: left;
+  <!--clear:left;
+}
+
+.startups {
+  background-image: url("imagens/58.jpg");
+  <!--width: 200px;
+  <!--height:410px;
+  <!--background-size: cover;
+  <!--background-position: right;
+  <!--float: left;
+  <!--clear:left;
+}
+
+.process {
+  background-image: url("imagens/engrenagem.jpg");
+  <!--width: 200px;
+  <!--height:500px;
+  <!--background-size: cover;
+  <!--background-position: right;
+  <!--float: left;
+  <!--clear:left;
+}
+
+.trainning {
+  background-image: url("imagens/giz.jpg");
+  <!--width: 200px;
+  <!--height:370px;
+  <!--background-size: cover;
+  <!--background-position: center;
+  <!--float: left;
+  <!--clear:left;
+}
+
+#pictures {
+  height:200px;
+  background-size: cover;
+  margin:0px 0px;
+  background-position: center;
+}
+
+.kitchen {
+  background-image: url("imagens/kitchen-1319537.jpg");
+}
+
+.pizza {
+  background-image: url("imagens/20130114016-3.jpg");
+}
+
+.bread {
+  background-image: url("imagens/bread-p-atilde-o-2-1561228.jpg");
+}
+
+.bolo {
+  background-image: url("imagens/bolo.jpg");
+}
+
+.article {
+  width: 750px;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border-top: 1px dashed #1a1a1a;
+  border-bottom: 1px dashed #1a1a1a;
+  <!--border-top: 1px dashed #e5e5ff;-->
+  <!--border-bottom: 1px dashed #ffcccc;-->
+
+}
+
+.footer {
+  margin: 10px 0px;
+  padding-top: 5px;
+  background-color: white;
+  color: black;
+  clear: both;
+  border-top: 1px solid #1a1a1a;
+}
+
+.footer p {
+  margin: 0;
+  display: inline-block;
+}
+.footer img {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+
+.navigation {
+  align-content: center;
+  display: block;
+  margin-left: 0px;
+}
+
+.navbar {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  color: #ff8533;
+  border-radius: 20px;
+  <!--color: #ddffcc;-->
+  <!--border-bottom: 1px dashed #ffcccc;-->
+  <!--border-top: 1px dashed #e5e5ff;-->
+}
+
+.navbar:hover {
+  background-color: #e6e6e6;
+  color: black;
+  font-weight: bold;
+}
+
+.serious {
+  margin: 20px;
+  font-family: Verdana;
+  text-align: justify;
+}
+
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius:100px;
+}
+
+.tabNutOnOff, .rotOnOff, .recipeOnOff, .prodDevOnOff, .freezeOnOff,
+.capacityOnOff, .mixOnOff, .clientOnOff, .layoutOnOff, .bpmOnOff, .gpOnOff,
+.bpfOnOff, .controlOnOff, .prepOnOff {
+  display: none;
+}
+
+.plus {
+  display: inline-block;
+  border-radius: 100px;
+  margin-left: 5px;
+}
