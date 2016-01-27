@@ -51,6 +51,14 @@ button {
   border: 1px solid #ff8533;
 }
 
+input, textarea {
+  border: 1px solid #ff8533;
+}
+
+#ddd {
+  width: 30px;
+}
+
 .bakery{
   background-image: url("imagens/AB0A3239-6.jpg");
   <!--width: 200px;
@@ -210,6 +218,10 @@ button {
   border-radius: 25px;
   margin: 20px;
 
+}
+
+.contact {
+  background-image: url("imagens/contato.jpg");
 }
 
 .tabNutOnOff, .rotOnOff, .recipeOnOff, .prodDevOnOff, .freezeOnOff,
