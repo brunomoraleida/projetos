@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="stylesheet.css" media="screen" title="no title" charset="utf-8">
     <!--<script type="text/javascript" src="consultoria.js">-->
     </script>
-    <title></title>
+    <title>Cia. Solut - Contato</title>
   </head>
   <body>
-    <h1><span>-{- Solut -}-</span></h1>
-    <h1>---------------------</h1>
+    <a href="home.html"><h1><span>-{- Solut -}-</span></h1></a>
+    <pre><h1> ------------------  </h1><h2>cia.</h2></pre>
     <h2>Soluções para o seu negócio</h2>
   <div class="navigation">
     <ul>
@@ -28,23 +28,28 @@
   <?php
   $nameErr = $mailErr = $msgErr = $phoneErr = $dddErr = "";
   $name = $mail = $phone = $company = $msg = $ddd = "";
+  $noErr = true;
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST['nome'])) {
       $nameErr = "Por favor informe seu nome";
+      $noErr = False;
     } else {
       $name = test_input($_POST['nome']);
       if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
         $nameErr = "Somente serão permitidas letras e espaços em seu nome";
+        $noErr = False;
       }
     }
 
     if (empty($_POST['mail'])) {
       $mailErr = "Por favor informe o seu e-mail";
+      $noErr = False;
     } else {
       $mail = test_input($_POST['mail']);
       if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
         $mailErr = "Por favor insira um e-mail válido";
+        $noErr = False;
       }
     }
 
@@ -54,6 +59,7 @@
       $ddd = test_input($_POST['ddd']);
       if (!preg_match("/^\d{2,4}$/",$ddd)) {
         $dddErr = "Apenas números serão permitidos";
+        $noErr = False;
       }
     }
 
@@ -64,6 +70,7 @@
       if (!preg_match("/^\d{8,9}$/",$phone)) {
         $phoneErr = "Apenas números serão permitidos.
         Por favor, confirme seu telefone";
+        $noErr = False;
       }
     }
 
@@ -75,6 +82,7 @@
 
     if (empty($_POST['msg'])) {
       $msgErr = "Por favor, deixe a sua mensagem";
+      $noErr = False;
     } else {
       $msg = test_input($_POST['msg']);
     }
@@ -87,7 +95,7 @@
     return $data;
   }
 
-  if (isset($_POST['enviar'])) {
+  if ($noErr && isset($_POST['enviar'])) {
     $to = "bruno_moraleida@yahoo.com.br";
     $subject = "Contato Solut";
     $message = "Nome: " . $_POST['nome'] . "\r\n\r\n";

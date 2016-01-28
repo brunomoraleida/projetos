@@ -12,16 +12,19 @@ h1  {
   margin:0px;
   padding: 0px;
   font-family: Chalkboard by Marta Van Eck;
+  display: inline-block;
 }
 
 h1 span {
+  margin:0px;
   font-size: 90px;
 }
 
 h2  {
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px;
   color: #ff8533;
+  display: inline-block;
 }
 
 h2 span {
@@ -29,6 +32,10 @@ h2 span {
   font-family: Verdana;
   color: #1a1a1a;
   <!--color: #e6e6e6;-->
+}
+
+pre {
+  margin:0px;
 }
 
 a {
@@ -64,7 +71,7 @@ input, textarea {
   <!--width: 200px;
   <!--height:870px;
   <!--background-size: cover;
-  <!--background-position: right;
+  background-position: center;
   <!--margin: 0;
   <!--float: left;
   }
@@ -74,14 +81,14 @@ input, textarea {
   <!--width: 200px;
   <!--height:390px;
   <!--background-size: cover;
-  <!--background-position: right;
+  background-position: right;
   <!--margin: 0;
   <!--float: left;
 }
 
 .empresa {
   background-image: url("imagens/company.jpg");
-  <!--background-position: center;
+  background-position: center;
   <!--width: 200px;
   <!--height:1200px;
   <!--background-size: cover;
@@ -91,14 +98,15 @@ input, textarea {
 
 .clientes {
   background-image: url("imagens/picjumbo.com_HNCK4011.jpg");
+  background-position: center;
 }
 
-.startups {
+.servicos {
   background-image: url("imagens/58.jpg");
   <!--width: 200px;
   <!--height:410px;
   <!--background-size: cover;
-  <!--background-position: right;
+  background-position: center;
   <!--float: left;
   <!--clear:left;
 }
@@ -108,7 +116,7 @@ input, textarea {
   <!--width: 200px;
   <!--height:500px;
   <!--background-size: cover;
-  <!--background-position: right;
+  background-position: right;
   <!--float: left;
   <!--clear:left;
 }
@@ -118,7 +126,7 @@ input, textarea {
   <!--width: 200px;
   <!--height:370px;
   <!--background-size: cover;
-  <!--background-position: center;
+  background-position: center;
   <!--float: left;
   <!--clear:left;
 }
@@ -127,23 +135,26 @@ input, textarea {
   height:200px;
   background-size: cover;
   margin:0px 0px;
-  background-position: center;
 }
 
 .kitchen {
   background-image: url("imagens/kitchen-1319537.jpg");
+  background-position: center;
 }
 
 .pizza {
   background-image: url("imagens/20130114016-3.jpg");
+  background-position: center;
 }
 
 .bread {
   background-image: url("imagens/bread-p-atilde-o-2-1561228.jpg");
+  background-position: center;
 }
 
 .bolo {
   background-image: url("imagens/bolo.jpg");
+  background-position: center;
 }
 
 .article {
@@ -222,6 +233,7 @@ input, textarea {
 
 .contact {
   background-image: url("imagens/contato.jpg");
+  background-position: center;
 }
 
 .tabNutOnOff, .rotOnOff, .recipeOnOff, .prodDevOnOff, .freezeOnOff,
@@ -234,4 +246,8 @@ input, textarea {
   display: inline-block;
   border-radius: 100px;
   margin-left: 5px;
+}
+
+.error {
+  color: red;
 }
