@@ -1,4 +1,6 @@
 body {
+  width:100%;
+  height:100%;
   <!--background-color: #0d0d0d;-->
   background-color: #ffffff;
   margin: 0px;
@@ -9,14 +11,14 @@ body {
 }
 
 h1  {
-  margin:0px;
+  margin: 0px 0px 0px -200px;
   padding: 0px;
   font-family: Chalkboard by Marta Van Eck;
   display: inline-block;
 }
 
 h1 span {
-  margin:0px;
+  margin:0px 0px 0px 200px;
   font-size: 90px;
 }
 
@@ -35,7 +37,7 @@ h2 span {
 }
 
 pre {
-  margin:0px;
+  margin:0px 0px 0px 200px;
 }
 
 a {
@@ -62,6 +64,9 @@ input, textarea {
   border: 1px solid #ff8533;
 }
 
+.header {
+  margin-top: 0px;
+}
 #ddd {
   width: 30px;
 }
@@ -250,4 +255,27 @@ input, textarea {
 
 .error {
   color: red;
+}
+
+.news {
+  width: 190px;
+  height: 20px;
+  overflow: hidden;
+  border: 1px solid #ff8533;
+  border-top: none;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding: 5px;
+  transition: height 0.5s;
+  text-align: left;
+  position:fixed;
+}
+
+.news:hover {
+  height: 200px;
+}
+
+#receive {
+  margin-top: 10px;
+  width: 150px;
 }
